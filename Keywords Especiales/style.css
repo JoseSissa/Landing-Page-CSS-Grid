@@ -1,0 +1,34 @@
+html, body{ background-color:teal;}
+.contenedor {
+    border: 5px solid tomato;
+    background-color:antiquewhite;
+    display: grid;
+    padding: 5px;
+
+    /* min-content hará que nuestro contenido haga salto de linea en cada oportunidad que tenga, siendo tan ancho como la palabra mas larga. max-content no tendrá salto de linea, ocupando todo el ancho que pueda, incluso causando overflow. */
+    
+    /* grid-template-columns: 1fr 3fr 1fr 2fr; */
+    grid-template-columns: 1fr 3fr min-content 2fr;
+    /* grid-template-columns: 1fr 3fr max-content 2fr; */
+}
+.contenedor-2 {
+    border: 5px solid tomato;
+    background-color:antiquewhite;
+    display: grid;
+    padding: 5px;
+    margin-top: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.contenedor-3 {
+    border: 5px solid tomato;
+    background-color:antiquewhite;
+    display: grid;
+    padding: 5px;
+    margin-top: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+.item {
+    border: 5px solid brown;
+    border-radius: 10px;
+    font-size: 2rem;
+}
