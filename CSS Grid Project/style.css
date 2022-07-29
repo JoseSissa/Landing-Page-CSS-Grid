@@ -54,9 +54,7 @@ hr {
     margin-bottom: 50px;
 }
 
-.hero-info p {
-    margin-bottom: 30px;
-}
+.hero-info p { margin-bottom: 30px; }
 .hero-info button {
     padding: 15px 30px;
     border-radius: 30px;
@@ -92,9 +90,7 @@ hr {
     height: 100%;
     object-fit: cover;
 }
-.dishes-item__big {
-    grid-area: 1 / 1 / 3 / 3;
-}
+.dishes-item__big { grid-area: 1 / 1 / 3 / 3; }
 
 /* --------------------------------------- */
 /* --------------------------------------- */
@@ -128,9 +124,7 @@ hr {
         padding: 20px 0 20px 50px;
         text-align: start;
     }
-    h1 {
-        font-size: 4.5rem;
-    }
+    h1 { font-size: 4.5rem; }
     /* ------------------ */
     .dishes-grid {
         padding: 0 20px;
