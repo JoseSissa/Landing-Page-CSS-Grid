@@ -128,9 +128,7 @@ hr {
         padding: 20px 0 20px 50px;
         text-align: start;
     }
-    h1 {
-        font-size: 4.5rem;
-    }
+    h1 { font-size: 4.5rem; }
     /* ------------------ */
     .dishes-grid {
         padding: 0 20px;
